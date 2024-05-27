@@ -1,7 +1,7 @@
 
 var host = '192.168.0.146'
 // Listen on a specific port via the PORT environment variable
-var port = 443;
+var port = 80;
 
 var cors_proxy = require('cors-anywhere');
 cors_proxy.createServer({
